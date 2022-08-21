@@ -1,10 +1,10 @@
 #navbar {
-    height: 170px; /*180px*/
+    height: 180px; /*180px*/
 }
 
 #navbar-container {
     flex-direction: column;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 #navbar-items {
@@ -14,8 +14,8 @@
 }
 
 #navbar-items li:nth-child(2) {
-    border-top: 1px solid #013880;
-    border-bottom: 1px solid #013880;
+    border-top: 1px solid #072279;
+    border-bottom: 1px solid #072279;
 }
 
 /* Showcase */
@@ -65,13 +65,11 @@
 /* Gallery */
 
 #gallery-container {
-    grid-template-columns: 1fr;
+    padding: 20px 10px;
 }
 
-.gallery-video {
-    margin-left: auto;
-    margin-right: auto;
-    width: 640px;
-    height: 360px;
-}
+.gallery-video{
+    width: 1920px;
+    height: 460px;
 
+}
