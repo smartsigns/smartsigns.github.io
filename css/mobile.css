@@ -1,5 +1,5 @@
 #navbar {
-    height: 220px; /*180px*/
+    height: 180px; /*180px*/
 }
 
 #navbar-container {
@@ -14,8 +14,8 @@
 }
 
 #navbar-items li:nth-child(2) {
-    border-top: 1px solid #45215e;
-    border-bottom: 1px solid #45215e;
+    border-top: 1px solid #2e97fa;
+    border-bottom: 1px solid #2e97fa;
 }
 
 /* Showcase */

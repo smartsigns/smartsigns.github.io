@@ -7,110 +7,103 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>&lt;felipemaronezi&gt;</title>
+    <title>&lt;smart.signs&gt;</title>
 </head>
 
 <body>
     <nav id="navbar">
         <div id="navbar-container">
-            <h1 class="logo">felipemaronezi</h1>
+            <h1 class="logo">smart.signs</h1>
             <ul id="navbar-items">
                 <li><a href="#showcase">Início</a></li>
-                <li><a href="#clients">Sobre</a></li>
-                <li><a href="#testimonials">Quem sou</a></li>
-                <li class="btn-nav"><a href="https://linktr.ee/felipemaronezi" target="_blank">Redes Sociais</a></li>
+                <li><a href="#product">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
             </ul>
         </div>
     </nav>
 
     <header id="showcase">
         <div id="showcase-container">
-            <h2>FELIPE MARONEZI</h2>
-            <p>bem-vindo ao meu portifólio de programação</p>
-            <a href="mailto:dev.felipemaronezi@gmail.com" class="btn">mandar e-mail</a>
+            <h2>&lt;smart.signs&gt;</h2>
+            <p>transformar libras em comandos inteligentes</p>
+            <a href="#product" class="btn">saiba mais</a>
         </div>
     </header>
 
     <!-- About -->
-    <section id="clients">
-        <div class="headline">Projetos já realizados</div>
-        <div id="clients-container">
-            <a href="https://projetoymir.github.io" target="_blank"><img src="/img/ymir.png" class="client" alt=""></a>
-            <a href="https://starloadapp.github.io" target="_blank"><img src="/img/starload.png" class="client" alt=""></a>
-            <a href="https://criptopass.github.io" target="_blank"><img src="/img/cripto.png" class="client" alt=""></a>
-            <a href="https://tincua.github.io" target="_blank"><img src="/img/tincua.png" class="client" alt=""></a>
+    <section id="product">
+        <div class="headline">Sobre o Projeto</div>
+        <div id="product-container">
+            <img src="/img/handcon2.png" alt="" class="iphone-x">
+            <div id="items">
+                <div class="item">
+                    <i class="fa-regular fa-hand fa-2x color-primary" style="margin-right: 10px;"></i>
+                    <p>&nbsp;&nbsp;Por meio de rastreamento de mãos com auxílio de um software inteligente,o usuário poderia "falar em Libras" e então a IA conectada receberia os comandos e então os interpretaria;</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-regular fa-universal-access fa-2x color-primary" style="margin-right: 10px;"></i>
+                    <p>&nbsp;&nbsp;O foco do projeto é acessibilidade, logo, a ideia seria fazer algo de fácil uso para o usuário. Portanto, a ideia é usar câmeras que fiquem em determinado cômodo (sala, quarto, cozinha) e, quando reconhecerem a tentativa de comunicação do individuo, seriam ativadas e iniciariam o software de rastreamento/tradução;</p>
+                </div>
+                <div class="item">
+                    <i class="fa-regular fa-user fa-2x" style="margin-right: 10px;"></i>
+                    <p>&nbsp;&nbsp;Uma outra ideia seria usar reconhecimento facial, para que apenas usuários já configurados pudessem se comunicar com a IA, logo, demais não poderiam utilizar (assim como funciona o reconhecimento de voz de IA's como Alexa, Google Home, Siri e etc.);</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-regular fa-globe fa-book-open fa-2x" style="margin-right: 10px;"></i>
+                    <p>&nbsp;&nbsp;Como Libras é a lingugem de sinais oficial do Brasil, ela servirá de ponto de partida e, caso o projeto tenha virtude, poderemos abrangir mais linguagens de sinais internacionais.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="features">
-        <div class="headline">Áreas de conhecimento</div>
+        <div class="headline">Como será feito?</div>
         <div id="features-container">
             <div class="feature">
                 <i class="fa-brands fa-python fa-3x"></i>
-                <span class="feature-title">Python</span>
-                <p>O meu estudo de Python começou em 2019, sei fazer algumas mecânicas usando o PyAutoGUI, usar a biblioteca Pandas, comandos macro com rastreamento corporal, entre muitas outras coisas. O meu projeto com a linguagem mais recente pode ser vista no meu aplicativo <a target="_blank" href="https://starloadapp.github.io" style="color: rgb(242, 188, 255);">StarLoad.</a> </p>
+                <br>
+                <span class="feature-title">Os Rastreadores</span>
+                <p class="feature-text">O rastreamento seria feito via software que estaria ativo no sistema das câmeras. Após o reconhecimento facial, que seria ativado com o usuário pondo-se frente a câmera, seria ativado o rastreador de mãos e então os comandos passariam a serem traduzidos e efetivados.</p>
             </div>
             <div class="feature">
-                <i class="fas fa-code fa-3x"></i>
-                <span class="feature-title">HTML/CSS</span>
-                <p>O meu estudo com HTML e CSS foi feito na quarentena, compre cursos, li livros, fiz cursos gratuitos, mas o método mais eficiente de aprender foi pela curiosidade, mexendo em sites, aprendendo aquilo que me deixava intrigado e no fim, juntando tudo em um site responsivo!</p>
+                <i class=" fas fa-regular fa-camera fa-3x"></i>
+                <br>
+                <span class="feature-title">As Câmeras</span>
+                <p class="feature-text">A ideia principal seria a existência de câmera com boa resolução e grande ângulo de abertura. Dessa forma, como estariam ligadas 24/7, facilmente poderiam identificar seus usuários e receber as informações desejaadas. O controle das câmera seria feito com aplicativo próprio para regulagem e enventuais ajustes.</p>
             </div>
             <div class="feature">
-                <i class="fa-brands fa-js fa-3x"></i>
-                <span class="feature-title">JavaScript</span>
-                <p>O meu estudo com JS ainda é recente, contudo, sei o suficiente para deixar o site funcional e com suas devidas funcionalidades postas. No meu site <a target="_blank" href="https://criptopass.github.io/" style="color: #7ac8c6;">Cripto.Pass</a> eu fiz um gerador de senhas aleatórias de acordo com as configurações escolhidas pelo usuário.</p>
+                <i class="fas fa-regular fa-microchip fa-3x"></i>
+                <br>
+                <span class="feature-title">As IAs</span>
+                <p class="feature-text">A priori, o ponto de partida seria criar um sistema inteligente que pudesse ser utilizado em Assistentes Virtuais famosas como Alexa, Google Home, Siri, Cortana e outras. Contudo, não é descartável a ideia de criarmos um IA própria que poderia ser integrada já no sistema da câmera e seu aplicativo.</p>
             </div>
         </div>
     </section>
 
-    <section id="product">
-        <div class="headline">Meu serviço </div>
-        <div id="product-container">
-            <img src="/img/iphone-x.png" alt="" class="iphone-x">
-            <div id="items">
-                <div class="item">
-                    <i class="fas fa-solid fa-angle-right fa-2x color-primary"></i>
-                    <p>&nbsp;&nbsp;Ofereço um serviço rápido e o mais moderno possível, podendo modificar o que você quiser no seu site no minímo tempo possível!</p>
-                </div>
-                <div class="item">
-                    <i class="fas fa-solid fa-angle-right fa-2x color-primary"></i>
-                    <p>&nbsp;&nbsp;Meus sites são 100% responsivos, ou seja, se adequam a telas grandes (como as de monitores) e telas pequenas (celulares)</p>
-                </div>
-                <div class="item">
-                    <i class="fas fa-solid fa-angle-right fa-2x color-primary"></i>
-                    <p>&nbsp;&nbsp;Inovação. Vou sempre dar meu máximo para inovar e fazer um diferencial nos seus sites, além de buscar um design harmonioso e moderno, aqui não teremos sites feios!! </p>
-                </div>
-                <div class="item">
-                    <i class="fas fa-solid fa-angle-right  fa-2x"></i>
-                    <p>&nbsp;&nbsp;Meu conhecimento é bom, mas sempre posso melhorar. Por isso cobro um preço acessível e justo pelo meu serviço!!!</p>
-                </div>
-                <div class="item">
-                    <i class="fas fa-solid fa-angle-right  fa-2x"></i>
-                    <p>&nbsp;&nbsp;<b>IMPORTANTE:</b> O prazo do serviço depende da complexidade do site, por isso este tipo de detalhe e preços, deve ser discutido por e-mail.</p>
-                </div>
-            </div>
+    <div id="galeria">
+        <div class="headline">Galeria</div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/nQ2FfGq6Ez4"></iframe>
         </div>
-    </section>
+    </div>
 
     <div id="testimonials">
         <div class="headline">Quem sou eu?</div>
         <div id="testimonials-container">
             <div class="testimonial">
-                <img src="/img/me2.png" alt="" class="testimonial-image">
-                <p>Meu nome é Felipe Maronezi, tenho 17 anos e estudo programação desde 2019. Entretanto, vale ressaltar que sempre me interessei pelo mundo de desenvolvimento de software, a prova disto é que, com apenas 9 anos, fiz meu primeiro aplicativo para o meu canal do Youtube. <br> Meu sonho é me tornar um engenheiro de software e viver deste universo computacional. <br><br> Caso queira me enviar um e-mail para contato, apenas <a href="mailto:dev.felipemaronezi@gmail.com" style="color:#d91bff; text-decoration: underline;"> clique aqui</a>.</p>
+                <img src="/img/me.jpg" alt="" class="testimonial-image">
+                <p>Meu nome é Felipe Maronezi, tenho 17 anos e estudo programação desde 2019. Entretanto, vale ressaltar que sempre me interessei pelo mundo de desenvolvimento de software, a prova disto é que, com apenas 9 anos, fiz meu primeiro aplicativo para o meu canal do Youtube. <br> Meu sonho é me tornar um engenheiro de software e viver deste universo computacional. <br><br> Caso queira me enviar um e-mail para contato, apenas <a href="mailto:dev.felipemaronezi@gmail.com" style="color:#1bcaff; text-decoration: underline;"> clique aqui</a>.</p>
             </div>
-            <!-- <div class="testimonial">
-                <img src="/img/icetera.png" alt="" class="testimonial-image">
-                <p>Este é o símbolo da iceTera, minha ideia de empresa de teconologia com o meu melhor amigo <a href="https://twitter.com/guto_ildefonso" target="_blank" style="color: #e7aaf3;">Augusto</a>, um programador web. Nosso objetivo é levantar a empresa um dia e trabalharmos juntos.</p>
-            </div>-->
         </div>
     </div>
+
+
     </div>
 
  
 
     <footer id="footer">
-        <p> <a href="https://linktr.ee/felipemaronezi" target="_blank">@felipemaronezi</a></p>
+        <p> Todos os Direitos Autorais de <a href="https://linktr.ee/felipemaronezi" target="_blank">@felipemaronezi</a></p>
         <p>Made by Felipe Maronezi</p>
     </footer>
 
