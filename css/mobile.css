@@ -19,6 +19,9 @@
 }
 
 /* Showcase */
+#showcase{
+    background: url('/img/nohandsmartback.png') no-repeat center center/cover;
+}
 #showcase-container {
     padding: 40px;
 }
